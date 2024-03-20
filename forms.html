@@ -1,0 +1,58 @@
+<!Doctype html>
+<html>
+<head>
+<title> Forms </title>
+<style>
+fieldset {
+background-color:pink;
+}
+form {
+background-color: lightblue;
+margin:15px;
+padding:15px;
+}
+body{
+background-color:lightgreen;
+}
+</style>
+</head>
+<body>
+<h1> <marquee> <u> Form </marquee> </u> </h1>
+<form>
+<fieldset>
+<legend> Personal Details: </legend>
+<label> Username: </label> <input type="text"> <br><br>
+<label> Password: </label> <input type="password"> <br> <br>
+<label> Which is your favourite Vehicle: </label><br>
+<input type="radio" name="lang"> car <br>
+<input type="radio" name="lang"> Bike <br>
+<input type="radio" name="lang"> Jeep <br> <br>
+ <label> Which is your favourite language:  </label><br> 
+<input type="checkbox"> HTML <br> 
+<input type="checkbox"> CSS <br> 
+<input type="checkbox"> JS <br> 
+<input type="checkbox"> Java <br> 
+<input type="checkbox"> C++<br> 
+<input type="checkbox"> Python <br> <br>
+<label> Choose your favourite color: </label>
+<select name="colors">
+<option value="novalue"> </option>
+<option value="red"> Red </option>
+<option value="red"> Yellow </option>
+<option value="red"> Blue </option>
+<option value="red"> Voilet </option>
+<option value="red"> Pink </option> 
+</select>  <label> choose your color: </label> <input type="color"> <br> <br>
+<label> Select today's date and time: </label> <input type="datetime-local"> <br> <br>
+<label> Enter your Email: </label> <input type="email"> <br> <br>
+<label> Submit your project: </label> <input type="file"> <br> <br>
+<label> Enter range: </label> <input type="range"> <br> <br>
+<label> Enter your number: </label> <input type="number"> <br> <br>
+<label> Feedback: </label> <br> <br>
+<textarea name="feedback" rows="10" cols="30"> </textarea> <br> <br>
+<button type="button" onclick="alert('Your details are submitted')"> Submit </button> 
+<button type="reset"> Reset </button> 
+</fieldset> 
+</form>
+</body>
+</html>
